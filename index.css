@@ -29,6 +29,14 @@ body {
   font-family: "Bree-serif";
 }
 
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: flex-end;
+}
+
 .box-small {
   height: 80px;
   width: 80px;
